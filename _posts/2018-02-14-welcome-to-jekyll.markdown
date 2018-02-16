@@ -10,13 +10,29 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 
 Jekyll also offers powerful support for code snippets:
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+``` js
+// server.js
+var express = require('express');  
+var app = express();  
+var server = require('http').createServer(app);
+var io = require('socket.io')(server);
+
+app.use(express.static(__dirname + '/public'));
+//redirect / to our index.html file
+
+app.get('/', function(req, res,next) {  
+    res.sendFile(__dirname + '/public/index.html');
+});
+
+io.on('connection', function(client) {  
+	console.log('client connected');
+});
+
+//start our web server and socket.io server listening
+server.listen(3000, function(){
+  console.log('listening on *:3000');
+});
+```
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
