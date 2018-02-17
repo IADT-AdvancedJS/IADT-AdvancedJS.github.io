@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "React - generating lists with keys"
+title:  "Generating lists with keys"
 date:   2018-02-14 21:39:30 +0000
 categories: react
 ---

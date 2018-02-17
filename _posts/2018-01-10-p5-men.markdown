@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "P5.js, Node, Express & MongoDB: Circle update demo"
+date:   2018-01-10 14:59:30 +0000
+categories: [node, express, mongo, p5js]
+---
+
+
+{% gist bd98a26070b9db55a809c8bc1a4eb8e4 %}

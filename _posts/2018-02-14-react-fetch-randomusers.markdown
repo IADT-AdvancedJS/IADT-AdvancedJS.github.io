@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "React - using fetch to get data from the Random User API"
+title:  "Using fetch to get data from the Random User API"
 date:   2018-02-15 20:39:30 +0000
 categories: react
 ---
