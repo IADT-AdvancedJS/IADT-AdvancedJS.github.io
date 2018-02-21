@@ -1,13 +1,14 @@
 ---
 layout: post
 title:  "Deploying your React App to Firebase"
-date:   2018-02-20 20:40:00 +0000
+date:   2018-02-28 20:40:00 +0000
 categories: react
 ---
 
 Up until now, we have been hosting our React apps from our own computers, using `npm start` to host our app from a local webserver. Ultimately, we will need to host our React apps on the Internet. One way to do this is to use [Firebase](https://firebase.google.com), a backend as a service (BaaS) solution.
 
 ## Building your React app
+
 Firstly, we need to build an optimised production version of our React app. Assuming you are in your React app folder, run `npm run build`. This will create a `build` folder containing an optimised version of your app ready for hosting.
 
 ## Getting started with Firebase

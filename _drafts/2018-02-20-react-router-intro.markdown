@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Getting started with React Router"
-date:   2018-02-20 20:40:00 +0000
+date:   2018-02-21 09:40:00 +0000
 categories: react
 ---
 
@@ -21,5 +21,8 @@ The key components of React Router are:
 See the example code below, which would result in this behaviour.
 
 ![React router demo]({{ "/assets/router/router.gif" | absolute_url }})
+
+
+<button class="codepenBtn" onclick="window.location.href='https://codepen.io/aerrity/pen/paVoBz?editors=0010'">Try this on CodePen</button>
 
 {% gist 784c01f91e6e1798dc9d45c1ee735a26 %}
