@@ -26,3 +26,7 @@ See the example code below, which would result in this behaviour.
 <button class="codepenBtn" onclick="window.location.href='https://codepen.io/aerrity/pen/paVoBz?editors=0010'">Try this on CodePen</button>
 
 {% gist 784c01f91e6e1798dc9d45c1ee735a26 %}
+
+Or using the `class` style React Components:
+
+{% gist 1234030e7f220910b312f19594fb195b %}
