@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Deploying your React App to Firebase"
-date:   2018-02-28 20:40:00 +0000
+date:   2018-03-21 09:55:00 +0000
 categories: react
 ---
 
