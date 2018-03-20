@@ -7,6 +7,6 @@ categories: react
 
 Follow this [tutorial](https://www.kirupa.com/react/creating_single_page_app_react_using_react_router.htm).
 
-![React router SPA demo]({{ "/assets/router/SPA.gif" | absolute_url }})
+![React router SPA demo]({{ "/assets/router/SPA.png" | absolute_url }})
 
 I have built a slightly modified version of this and placed the [source code on GitHub](https://github.com/IADT-AdvancedJS/react-router-spa). I have also deployed this to Firebase for you to [try out](https://react-router-demo-a0fa2.firebaseapp.com/#/).
