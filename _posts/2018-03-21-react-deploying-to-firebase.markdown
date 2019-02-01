@@ -35,6 +35,7 @@ To prepare your React app for deployment, go to your React project folder and ru
 ![Selecting hosting]({{ "/assets/firebase/hosting.png" | absolute_url }})
 2. Select the name of the Firebase project you want to deploy to, i.e. the name of your project from above.
 ![Selecting project]({{ "/assets/firebase/project-name.png" | absolute_url }})
+*NOTE* If you cannot see the name of your project, choose Create New Project and follow the instructions below. When finished, run `firebase use --add your_project_name` and then start from `firebase init` again.
 3. When asked 'What do you want to use as your project directory?' Type `build` and hit enter.
 ![Selecting project directory]({{ "/assets/firebase/project-dir.png" | absolute_url }})
 4. When asked to 'Configure as a single-page app', type `y` and hit enter.
