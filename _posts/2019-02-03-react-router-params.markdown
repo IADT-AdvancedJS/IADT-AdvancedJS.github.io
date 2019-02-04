@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Event handling - button clicks"
+title:  "React Router - URL parameters"
 date:   2019-02-04 18:39:30 +0000
 categories: react
 ---
